@@ -11,7 +11,10 @@
             <input type="text" class="name" name="name" placeholder="Name" value="{{post.name}}" required>
             <textarea class="text" name="body" placeholder="Tell us anything" required>{{post.body}}</textarea>
             <input class="files" type="file" name="image">
+            {% if post.image %}
             <img class="image-post" src="{{ post.image.url}}" />
+  
+            {% endif %}
             <button type="submit" value="Post" >Update</button>
             <a href="/" class="cancel">Cancel</a>
         </form>

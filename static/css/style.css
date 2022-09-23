@@ -1,0 +1,196 @@
+/*
+Header 
+***********************/
+.header img {
+    width: 50px;
+}
+
+section.header {
+    display: flex;
+    gap: 20px;
+    padding: 12px 38px;
+    border-bottom: 1px solid #ccc;
+   
+}
+
+
+/*
+Common 
+***********************/
+
+html,
+body {
+    height: 100%;
+}
+
+.content {
+    max-width: 600px;
+   
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+/*
+Post 
+***********************/
+.display {
+    display: flex;
+    gap: 25px;
+}
+
+
+img.image-post {
+    width: 94%;
+}
+
+.post_form {
+    padding: 20px 40px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post_form .name {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #fae6fe;
+    border-radius: 5px;
+}
+
+.post_form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid white;
+
+}
+.post_form .text{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+.post_form .file {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.post_form .files {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.post_form .details button {
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 13px;
+    background-color: #fae6fe;
+    border: 1px solid #fae6fe;
+    border-radius: 5px;
+}
+.post_form  button {
+    width: 140px;
+    margin-bottom: 10px;
+    padding: 13px;
+    background-color: #fae6fe;
+    border: 1px solid #fae6fe;
+    border-radius: 5px;
+}
+.post_form  a.cancel {
+    width: 140px;
+    margin-bottom: 10px;
+    padding: 13px;
+    background-color: #fae6fe;
+    border: 1px solid #fae6fe;
+    border-radius: 5px;
+    text-decoration: none;
+   
+   
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+} 
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
+
+.love img {
+    width: 30px;
+}
+
+.love a {
+    text-decoration: none;
+}
+.love{
+    color: red;
+}
+
+/*
+Edit 
+*********/
+
+
